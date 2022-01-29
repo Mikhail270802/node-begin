@@ -1,0 +1,23 @@
+{
+  "name": "node-begin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node JS course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Mikhail Sharygin <misharygin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
